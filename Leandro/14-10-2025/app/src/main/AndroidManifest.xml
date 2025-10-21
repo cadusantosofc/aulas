@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".CTelaComboBoxLogica"
+            android:exported="false" />
+        <activity
+            android:name=".BTelaDoisLogica"
+            android:exported="false" />
+        <activity
             android:name=".ATelaEntradaLogico"
             android:exported="true">
             <intent-filter>
