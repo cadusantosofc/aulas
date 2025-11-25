@@ -1,5 +1,6 @@
 package com.example.androidpoo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -45,6 +46,14 @@ public class LogicaCadastro extends AppCompatActivity {
                 String nome = nome_var.getText().toString();
                 String documento = documento_var.getText().toString();
                 String curso = curso_var.getText().toString();
+            }
+        });
+
+        botao_visualizar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mudar_tela = new Intent();
+                startActivity(mudar_tela);
             }
         });
     }
