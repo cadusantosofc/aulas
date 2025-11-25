@@ -1,6 +1,8 @@
 package com.example.androidpoo;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
@@ -14,7 +16,7 @@ import java.util.ArrayList;
 public class LogicaCadastro extends AppCompatActivity {
 
     EditText id_var, nome_var, documento_var, curso_var;
-
+    Button botao_cadastrar, botao_visualizar;
     ArrayList<Alunos> alunos_var = new ArrayList<>();
     
     @Override
@@ -33,8 +35,15 @@ public class LogicaCadastro extends AppCompatActivity {
         documento_var = findViewById(R.id.etx_documento);
         curso_var = findViewById(R.id.etx_curso);
 
-        
+        botao_cadastrar = findViewById(R.id.btn_cadastrar);
+        botao_visualizar = findViewById(R.id.btn_visualizar);
 
 
+        botao_cadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
