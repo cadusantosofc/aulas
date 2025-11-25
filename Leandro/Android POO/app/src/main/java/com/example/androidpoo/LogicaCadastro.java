@@ -42,7 +42,9 @@ public class LogicaCadastro extends AppCompatActivity {
         botao_cadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String nome = nome_var.getText().toString();
+                String documento = documento_var.getText().toString();
+                String curso = curso_var.getText().toString();
             }
         });
     }
