@@ -1,0 +1,7 @@
+com\blackjack\model\Baralho.class
+com\blackjack\model\Mao.class
+com\blackjack\model\Rank.class
+com\blackjack\BlackjackApp.class
+com\blackjack\model\Carta.class
+com\blackjack\model\Nipe.class
+com\blackjack\Launcher.class
